@@ -1,1 +1,1 @@
-web: ./deploy.sh && gunicorn finalWebsite.wsgi:application
+web: gunicorn finalWebsite.wsgi:application
