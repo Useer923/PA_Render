@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3de19145-f8d6-467d-bf51-663db799df3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib.part9.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Bourgogne-Franche-Comt‚.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Bretagne.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Centre-Val de Loire.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Corse.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Grand Est.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Hauts-de-France.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Normandie.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib.part7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Occitanie.joblib.part8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Pays de la Loire.joblib.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomForestRegressor/models/Provence-Alpes-C“te d'Azur.joblib.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2jbzI5zHF5LgMJ4sph5BNZXjSzw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.split_file.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/thomas/Documents/Ecole/4A_ESGI/S2/PA-Render/finalWebsite/appartement",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3de19145-f8d6-467d-bf51-663db799df3f" name="Changes" comment="" />
+      <created>1721670481391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721670481391</updated>
+      <workItem from="1721670482629" duration="5090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/appartement$split_file.coverage" NAME="split_file Coverage Results" MODIFIED="1721729050450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

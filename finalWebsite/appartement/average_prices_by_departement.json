@@ -1,0 +1,912 @@
+{
+    "Ain": {
+        "maison": {
+            "average_price": 288569.7702086767,
+            "average_price_per_sqm": 2639.5347062610535
+        },
+        "appartement": {
+            "average_price": 218536.63244577515,
+            "average_price_per_sqm": 3190.232138537776
+        }
+    },
+    "Aisne": {
+        "maison": {
+            "average_price": 119664.51327979378,
+            "average_price_per_sqm": 1235.4416255667006
+        },
+        "appartement": {
+            "average_price": 105512.07912162162,
+            "average_price_per_sqm": 1741.9046067944919
+        }
+    },
+    "Allier": {
+        "maison": {
+            "average_price": 108616.06935166355,
+            "average_price_per_sqm": 1161.8718672984132
+        },
+        "appartement": {
+            "average_price": 93357.42612733647,
+            "average_price_per_sqm": 1573.2177761263083
+        }
+    },
+    "Alpes-de-Haute-Provence": {
+        "maison": {
+            "average_price": 213097.15926276898,
+            "average_price_per_sqm": 2373.7532492369232
+        },
+        "appartement": {
+            "average_price": 86408.74967086832,
+            "average_price_per_sqm": 2003.3937869505442
+        }
+    },
+    "Hautes-Alpes": {
+        "maison": {
+            "average_price": 252159.720306562,
+            "average_price_per_sqm": 2637.746252650271
+        },
+        "appartement": {
+            "average_price": 113794.75343783207,
+            "average_price_per_sqm": 2656.379293862278
+        }
+    },
+    "Alpes-Maritimes": {
+        "maison": {
+            "average_price": 596285.479644309,
+            "average_price_per_sqm": 6007.0977596172115
+        },
+        "appartement": {
+            "average_price": 256666.93535508972,
+            "average_price_per_sqm": 4992.323636769881
+        }
+    },
+    "Ardèche": {
+        "maison": {
+            "average_price": 183924.57911303046,
+            "average_price_per_sqm": 1963.5193977964182
+        },
+        "appartement": {
+            "average_price": 117538.29532744284,
+            "average_price_per_sqm": 1752.617026861554
+        }
+    },
+    "Ardennes": {
+        "maison": {
+            "average_price": 120129.58351406267,
+            "average_price_per_sqm": 1201.5965233947968
+        },
+        "appartement": {
+            "average_price": 80420.95381880732,
+            "average_price_per_sqm": 1174.480760521864
+        }
+    },
+    "Ariège": {
+        "maison": {
+            "average_price": 129518.97708916386,
+            "average_price_per_sqm": 1371.889953512928
+        },
+        "appartement": {
+            "average_price": 72045.78778457773,
+            "average_price_per_sqm": 1369.761905892209
+        }
+    },
+    "Aube": {
+        "maison": {
+            "average_price": 149093.43761249754,
+            "average_price_per_sqm": 1481.1897830933453
+        },
+        "appartement": {
+            "average_price": 99354.99793053961,
+            "average_price_per_sqm": 1708.5950432636541
+        }
+    },
+    "Aude": {
+        "maison": {
+            "average_price": 158489.2425850809,
+            "average_price_per_sqm": 1719.026110581254
+        },
+        "appartement": {
+            "average_price": 94069.95333038647,
+            "average_price_per_sqm": 2114.909907407408
+        }
+    },
+    "Aveyron": {
+        "maison": {
+            "average_price": 132227.80580541622,
+            "average_price_per_sqm": 1388.8012185275861
+        },
+        "appartement": {
+            "average_price": 102764.5128219178,
+            "average_price_per_sqm": 1765.547054836432
+        }
+    },
+    "Bouches-du-Rhône": {
+        "maison": {
+            "average_price": 415808.83355841355,
+            "average_price_per_sqm": 4307.318426896846
+        },
+        "appartement": {
+            "average_price": 194135.59583107784,
+            "average_price_per_sqm": 3500.992594836376
+        }
+    },
+    "Calvados": {
+        "maison": {
+            "average_price": 240947.9957135782,
+            "average_price_per_sqm": 2472.553903322556
+        },
+        "appartement": {
+            "average_price": 154657.2183451015,
+            "average_price_per_sqm": 3586.116723151701
+        }
+    },
+    "Cantal": {
+        "maison": {
+            "average_price": 112959.3029717796,
+            "average_price_per_sqm": 1213.2837545904995
+        },
+        "appartement": {
+            "average_price": 82002.5507540173,
+            "average_price_per_sqm": 1451.0709908569927
+        }
+    },
+    "Charente": {
+        "maison": {
+            "average_price": 136247.07997711102,
+            "average_price_per_sqm": 1320.1271003266697
+        },
+        "appartement": {
+            "average_price": 94149.73545823195,
+            "average_price_per_sqm": 1667.983157607368
+        }
+    },
+    "Charente-Maritime": {
+        "maison": {
+            "average_price": 270466.41275372443,
+            "average_price_per_sqm": 2713.7161649309733
+        },
+        "appartement": {
+            "average_price": 185912.78383395285,
+            "average_price_per_sqm": 3778.9054705508975
+        }
+    },
+    "Cher": {
+        "maison": {
+            "average_price": 108592.266986228,
+            "average_price_per_sqm": 1193.3918519381148
+        },
+        "appartement": {
+            "average_price": 80956.04656050955,
+            "average_price_per_sqm": 1511.7123261276797
+        }
+    },
+    "Corrèze": {
+        "maison": {
+            "average_price": 123630.47493354719,
+            "average_price_per_sqm": 1337.2479728001424
+        },
+        "appartement": {
+            "average_price": 93265.4428101266,
+            "average_price_per_sqm": 1614.9860226861747
+        }
+    },
+    "Côte-d'Or": {
+        "maison": {
+            "average_price": 210560.58746692585,
+            "average_price_per_sqm": 2042.972978100689
+        },
+        "appartement": {
+            "average_price": 148194.82318495226,
+            "average_price_per_sqm": 2746.5511439492448
+        }
+    },
+    "Côtes-d'Armor": {
+        "maison": {
+            "average_price": 180145.44281870683,
+            "average_price_per_sqm": 1864.8784205034874
+        },
+        "appartement": {
+            "average_price": 124067.41234669242,
+            "average_price_per_sqm": 2314.0568011275623
+        }
+    },
+    "Creuse": {
+        "maison": {
+            "average_price": 73698.93022918151,
+            "average_price_per_sqm": 796.8022101187198
+        },
+        "appartement": {
+            "average_price": 78724.50282485876,
+            "average_price_per_sqm": 1206.4274458874459
+        }
+    },
+    "Dordogne": {
+        "maison": {
+            "average_price": 154308.71347793905,
+            "average_price_per_sqm": 1515.00964601943
+        },
+        "appartement": {
+            "average_price": 94598.19378202524,
+            "average_price_per_sqm": 1665.2846993256308
+        }
+    },
+    "Doubs": {
+        "maison": {
+            "average_price": 229428.87280113218,
+            "average_price_per_sqm": 2169.442401450846
+        },
+        "appartement": {
+            "average_price": 139917.15143716268,
+            "average_price_per_sqm": 2221.8860779185798
+        }
+    },
+    "Drôme": {
+        "maison": {
+            "average_price": 234555.12242803257,
+            "average_price_per_sqm": 2314.0751468739027
+        },
+        "appartement": {
+            "average_price": 140159.0163605658,
+            "average_price_per_sqm": 2169.0785732954364
+        }
+    },
+    "Eure": {
+        "maison": {
+            "average_price": 179243.2910419551,
+            "average_price_per_sqm": 1887.3278597112624
+        },
+        "appartement": {
+            "average_price": 112200.01185185186,
+            "average_price_per_sqm": 2032.3283208298126
+        }
+    },
+    "Eure-et-Loir": {
+        "maison": {
+            "average_price": 182784.9454239676,
+            "average_price_per_sqm": 1860.1855930907757
+        },
+        "appartement": {
+            "average_price": 117356.42030257185,
+            "average_price_per_sqm": 2151.686281482303
+        }
+    },
+    "Finistère": {
+        "maison": {
+            "average_price": 190592.7302167426,
+            "average_price_per_sqm": 1946.5172344397288
+        },
+        "appartement": {
+            "average_price": 116738.21617605131,
+            "average_price_per_sqm": 2153.594291070943
+        }
+    },
+    "Gard": {
+        "maison": {
+            "average_price": 255257.23407769276,
+            "average_price_per_sqm": 2596.052810713555
+        },
+        "appartement": {
+            "average_price": 136319.46510817003,
+            "average_price_per_sqm": 2635.98704517342
+        }
+    },
+    "Haute-Garonne": {
+        "maison": {
+            "average_price": 293470.7543112658,
+            "average_price_per_sqm": 2793.5141320406346
+        },
+        "appartement": {
+            "average_price": 168843.04951223507,
+            "average_price_per_sqm": 3155.636390184737
+        }
+    },
+    "Gers": {
+        "maison": {
+            "average_price": 168414.34589264172,
+            "average_price_per_sqm": 1465.49019978209
+        },
+        "appartement": {
+            "average_price": 84910.76381362007,
+            "average_price_per_sqm": 1524.4008020282356
+        }
+    },
+    "Gironde": {
+        "maison": {
+            "average_price": 363800.1064661831,
+            "average_price_per_sqm": 3562.4037800141105
+        },
+        "appartement": {
+            "average_price": 224012.4713193273,
+            "average_price_per_sqm": 4105.616937352986
+        }
+    },
+    "Hérault": {
+        "maison": {
+            "average_price": 268852.4300555498,
+            "average_price_per_sqm": 2894.2658957841536
+        },
+        "appartement": {
+            "average_price": 151168.52923913643,
+            "average_price_per_sqm": 3306.7740164372176
+        }
+    },
+    "Ille-et-Vilaine": {
+        "maison": {
+            "average_price": 264463.8456198448,
+            "average_price_per_sqm": 2556.3784363779523
+        },
+        "appartement": {
+            "average_price": 184700.39696229622,
+            "average_price_per_sqm": 3363.759467706325
+        }
+    },
+    "Indre": {
+        "maison": {
+            "average_price": 94560.22832836375,
+            "average_price_per_sqm": 1041.8062784507085
+        },
+        "appartement": {
+            "average_price": 83278.40910112359,
+            "average_price_per_sqm": 1264.1614207743476
+        }
+    },
+    "Indre-et-Loire": {
+        "maison": {
+            "average_price": 218416.4963424959,
+            "average_price_per_sqm": 2221.8112893264647
+        },
+        "appartement": {
+            "average_price": 141200.63182607418,
+            "average_price_per_sqm": 2662.765642341215
+        }
+    },
+    "Isère": {
+        "maison": {
+            "average_price": 279768.1223623968,
+            "average_price_per_sqm": 2718.4340593220263
+        },
+        "appartement": {
+            "average_price": 172719.36647299016,
+            "average_price_per_sqm": 2899.9749845082174
+        }
+    },
+    "Jura": {
+        "maison": {
+            "average_price": 165041.83248177046,
+            "average_price_per_sqm": 1576.7891113808078
+        },
+        "appartement": {
+            "average_price": 103902.66936805555,
+            "average_price_per_sqm": 1654.7572816253398
+        }
+    },
+    "Landes": {
+        "maison": {
+            "average_price": 277766.71426091465,
+            "average_price_per_sqm": 2716.454099991426
+        },
+        "appartement": {
+            "average_price": 148260.81487431328,
+            "average_price_per_sqm": 3105.9374453341325
+        }
+    },
+    "Loir-et-Cher": {
+        "maison": {
+            "average_price": 141890.7825282519,
+            "average_price_per_sqm": 1477.2158884794078
+        },
+        "appartement": {
+            "average_price": 92104.29765038923,
+            "average_price_per_sqm": 1791.8186554135916
+        }
+    },
+    "Loire": {
+        "maison": {
+            "average_price": 188619.44760875974,
+            "average_price_per_sqm": 1880.5730711926562
+        },
+        "appartement": {
+            "average_price": 113660.44186974793,
+            "average_price_per_sqm": 1661.6589856953096
+        }
+    },
+    "Haute-Loire": {
+        "maison": {
+            "average_price": 123577.21247912192,
+            "average_price_per_sqm": 1296.4299508624724
+        },
+        "appartement": {
+            "average_price": 99839.81194107453,
+            "average_price_per_sqm": 1446.154675285553
+        }
+    },
+    "Loire-Atlantique": {
+        "maison": {
+            "average_price": 301321.8116041471,
+            "average_price_per_sqm": 3097.71244840469
+        },
+        "appartement": {
+            "average_price": 194424.3907262919,
+            "average_price_per_sqm": 3744.39769815725
+        }
+    },
+    "Loiret": {
+        "maison": {
+            "average_price": 184755.57371283055,
+            "average_price_per_sqm": 1880.1563624870735
+        },
+        "appartement": {
+            "average_price": 122278.79560716903,
+            "average_price_per_sqm": 2320.656033416981
+        }
+    },
+    "Lot": {
+        "maison": {
+            "average_price": 149099.50478242562,
+            "average_price_per_sqm": 1485.8101460512587
+        },
+        "appartement": {
+            "average_price": 91232.89697931033,
+            "average_price_per_sqm": 1509.0655086582556
+        }
+    },
+    "Lot-et-Garonne": {
+        "maison": {
+            "average_price": 147285.7573086773,
+            "average_price_per_sqm": 1425.758984633849
+        },
+        "appartement": {
+            "average_price": 86212.19931847969,
+            "average_price_per_sqm": 1464.433410559905
+        }
+    },
+    "Lozère": {
+        "maison": {
+            "average_price": 126539.39336548396,
+            "average_price_per_sqm": 1416.4402314309618
+        },
+        "appartement": {
+            "average_price": 91478.92695783133,
+            "average_price_per_sqm": 1439.9300090081547
+        }
+    },
+    "Maine-et-Loire": {
+        "maison": {
+            "average_price": 199574.45091922014,
+            "average_price_per_sqm": 1970.6330259727608
+        },
+        "appartement": {
+            "average_price": 150239.4299191328,
+            "average_price_per_sqm": 2763.39562539361
+        }
+    },
+    "Manche": {
+        "maison": {
+            "average_price": 174240.04573379183,
+            "average_price_per_sqm": 1833.780677111636
+        },
+        "appartement": {
+            "average_price": 127328.27056460782,
+            "average_price_per_sqm": 2280.385105190293
+        }
+    },
+    "Marne": {
+        "maison": {
+            "average_price": 202785.58931843142,
+            "average_price_per_sqm": 1936.562587065843
+        },
+        "appartement": {
+            "average_price": 151350.3984454844,
+            "average_price_per_sqm": 2637.286071895352
+        }
+    },
+    "Haute-Marne": {
+        "maison": {
+            "average_price": 95239.33331900871,
+            "average_price_per_sqm": 940.203416102077
+        },
+        "appartement": {
+            "average_price": 76290.21227146815,
+            "average_price_per_sqm": 1141.7754914804527
+        }
+    },
+    "Mayenne": {
+        "maison": {
+            "average_price": 134264.30849705305,
+            "average_price_per_sqm": 1395.1898179614925
+        },
+        "appartement": {
+            "average_price": 113200.78916984731,
+            "average_price_per_sqm": 1904.0610382627674
+        }
+    },
+    "Meurthe-et-Moselle": {
+        "maison": {
+            "average_price": 182337.31408821765,
+            "average_price_per_sqm": 1788.3788024662672
+        },
+        "appartement": {
+            "average_price": 125820.18036190016,
+            "average_price_per_sqm": 1947.4272963671363
+        }
+    },
+    "Meuse": {
+        "maison": {
+            "average_price": 103439.06148118497,
+            "average_price_per_sqm": 975.7235134097544
+        },
+        "appartement": {
+            "average_price": 84064.68368760066,
+            "average_price_per_sqm": 1143.574338882804
+        }
+    },
+    "Morbihan": {
+        "maison": {
+            "average_price": 253642.20011366895,
+            "average_price_per_sqm": 2561.3349633154976
+        },
+        "appartement": {
+            "average_price": 165547.06021448717,
+            "average_price_per_sqm": 3294.8686741718316
+        }
+    },
+    "Nièvre": {
+        "maison": {
+            "average_price": 92769.22402634226,
+            "average_price_per_sqm": 1040.8372359849432
+        },
+        "appartement": {
+            "average_price": 68750.23252727273,
+            "average_price_per_sqm": 1104.9862036820573
+        }
+    },
+    "Nord": {
+        "maison": {
+            "average_price": 203582.8817502189,
+            "average_price_per_sqm": 2129.6128422194743
+        },
+        "appartement": {
+            "average_price": 170087.8673468004,
+            "average_price_per_sqm": 3033.587445909549
+        }
+    },
+    "Oise": {
+        "maison": {
+            "average_price": 220160.53187953823,
+            "average_price_per_sqm": 2278.8757464898654
+        },
+        "appartement": {
+            "average_price": 148317.76957792207,
+            "average_price_per_sqm": 2636.0392782700756
+        }
+    },
+    "Orne": {
+        "maison": {
+            "average_price": 117177.92157322548,
+            "average_price_per_sqm": 1263.2129037260308
+        },
+        "appartement": {
+            "average_price": 80007.30648083623,
+            "average_price_per_sqm": 1543.9817751479288
+        }
+    },
+    "Pas-de-Calais": {
+        "maison": {
+            "average_price": 165365.27771551572,
+            "average_price_per_sqm": 1713.5102224245722
+        },
+        "appartement": {
+            "average_price": 158910.1943121664,
+            "average_price_per_sqm": 3121.5040679467597
+        }
+    },
+    "Puy-de-Dôme": {
+        "maison": {
+            "average_price": 161743.04369220868,
+            "average_price_per_sqm": 1733.851317803913
+        },
+        "appartement": {
+            "average_price": 113211.55421566711,
+            "average_price_per_sqm": 2179.8558850434633
+        }
+    },
+    "Pyrénées-Atlantiques": {
+        "maison": {
+            "average_price": 332014.7188956715,
+            "average_price_per_sqm": 2866.597943807466
+        },
+        "appartement": {
+            "average_price": 220089.95117537095,
+            "average_price_per_sqm": 3910.547616013784
+        }
+    },
+    "Hautes-Pyrénées": {
+        "maison": {
+            "average_price": 165126.43469469342,
+            "average_price_per_sqm": 1565.0590585556408
+        },
+        "appartement": {
+            "average_price": 87229.84215120052,
+            "average_price_per_sqm": 1745.979123705984
+        }
+    },
+    "Pyrénées-Orientales": {
+        "maison": {
+            "average_price": 210067.80627737837,
+            "average_price_per_sqm": 2352.123440668074
+        },
+        "appartement": {
+            "average_price": 113593.52962086389,
+            "average_price_per_sqm": 2376.726158221152
+        }
+    },
+    "Rhône": {
+        "maison": {
+            "average_price": 403266.55812544504,
+            "average_price_per_sqm": 3803.722593309816
+        },
+        "appartement": {
+            "average_price": 251875.18586072544,
+            "average_price_per_sqm": 4201.698257705978
+        }
+    },
+    "Haute-Saône": {
+        "maison": {
+            "average_price": 117219.36535980775,
+            "average_price_per_sqm": 1115.0694374566142
+        },
+        "appartement": {
+            "average_price": 77344.24986394557,
+            "average_price_per_sqm": 1078.232730290194
+        }
+    },
+    "Saône-et-Loire": {
+        "maison": {
+            "average_price": 144436.52876029495,
+            "average_price_per_sqm": 1461.849724829622
+        },
+        "appartement": {
+            "average_price": 105730.7192382104,
+            "average_price_per_sqm": 1621.5786559063345
+        }
+    },
+    "Sarthe": {
+        "maison": {
+            "average_price": 145299.9107749966,
+            "average_price_per_sqm": 1548.9348388466792
+        },
+        "appartement": {
+            "average_price": 102505.12290016365,
+            "average_price_per_sqm": 1981.3048101281838
+        }
+    },
+    "Savoie": {
+        "maison": {
+            "average_price": 379499.7531753503,
+            "average_price_per_sqm": 3808.8727985547002
+        },
+        "appartement": {
+            "average_price": 216476.24744770548,
+            "average_price_per_sqm": 4220.208361103618
+        }
+    },
+    "Haute-Savoie": {
+        "maison": {
+            "average_price": 539326.7013237281,
+            "average_price_per_sqm": 4868.952031175092
+        },
+        "appartement": {
+            "average_price": 253071.98873152392,
+            "average_price_per_sqm": 4354.509770998048
+        }
+    },
+    "Seine-Maritime": {
+        "maison": {
+            "average_price": 191080.64371040196,
+            "average_price_per_sqm": 2107.0113754710756
+        },
+        "appartement": {
+            "average_price": 137722.40233502546,
+            "average_price_per_sqm": 2488.949343343351
+        }
+    },
+    "Seine-et-Marne": {
+        "maison": {
+            "average_price": 294803.415553223,
+            "average_price_per_sqm": 2984.177725922458
+        },
+        "appartement": {
+            "average_price": 192653.90839692974,
+            "average_price_per_sqm": 3508.9220378292903
+        }
+    },
+    "Yvelines": {
+        "maison": {
+            "average_price": 483488.40463714494,
+            "average_price_per_sqm": 4573.306875347805
+        },
+        "appartement": {
+            "average_price": 259398.61886423783,
+            "average_price_per_sqm": 4432.514245150297
+        }
+    },
+    "Deux-Sèvres": {
+        "maison": {
+            "average_price": 130855.81438532015,
+            "average_price_per_sqm": 1274.4962936531126
+        },
+        "appartement": {
+            "average_price": 89145.29420134227,
+            "average_price_per_sqm": 1594.0581374360943
+        }
+    },
+    "Somme": {
+        "maison": {
+            "average_price": 151492.76808609793,
+            "average_price_per_sqm": 1685.1207563970177
+        },
+        "appartement": {
+            "average_price": 132347.89188716657,
+            "average_price_per_sqm": 2514.205262132465
+        }
+    },
+    "Tarn": {
+        "maison": {
+            "average_price": 160147.48464743147,
+            "average_price_per_sqm": 1535.0365776312774
+        },
+        "appartement": {
+            "average_price": 104406.19898173517,
+            "average_price_per_sqm": 1813.757898924356
+        }
+    },
+    "Tarn-et-Garonne": {
+        "maison": {
+            "average_price": 176143.62029837546,
+            "average_price_per_sqm": 1657.7727370473795
+        },
+        "appartement": {
+            "average_price": 115633.73013788101,
+            "average_price_per_sqm": 1790.9172460184552
+        }
+    },
+    "Var": {
+        "maison": {
+            "average_price": 416206.7422683056,
+            "average_price_per_sqm": 4412.479701320983
+        },
+        "appartement": {
+            "average_price": 201795.12522227105,
+            "average_price_per_sqm": 3979.4683190407154
+        }
+    },
+    "Vaucluse": {
+        "maison": {
+            "average_price": 295670.42547081877,
+            "average_price_per_sqm": 2967.7999847186807
+        },
+        "appartement": {
+            "average_price": 131533.0962461081,
+            "average_price_per_sqm": 2361.415198863568
+        }
+    },
+    "Vendée": {
+        "maison": {
+            "average_price": 216630.15830771354,
+            "average_price_per_sqm": 2332.2349877656015
+        },
+        "appartement": {
+            "average_price": 142230.94845930234,
+            "average_price_per_sqm": 3309.2944894390016
+        }
+    },
+    "Vienne": {
+        "maison": {
+            "average_price": 137033.00162762383,
+            "average_price_per_sqm": 1386.6284890241266
+        },
+        "appartement": {
+            "average_price": 96357.3076385844,
+            "average_price_per_sqm": 2046.3510694379781
+        }
+    },
+    "Haute-Vienne": {
+        "maison": {
+            "average_price": 127839.04561980197,
+            "average_price_per_sqm": 1342.5231876408886
+        },
+        "appartement": {
+            "average_price": 91495.58232103157,
+            "average_price_per_sqm": 1817.1937144219646
+        }
+    },
+    "Vosges": {
+        "maison": {
+            "average_price": 127739.26820799551,
+            "average_price_per_sqm": 1233.4789464808907
+        },
+        "appartement": {
+            "average_price": 96125.81555715659,
+            "average_price_per_sqm": 1394.409012931455
+        }
+    },
+    "Yonne": {
+        "maison": {
+            "average_price": 126788.52690494638,
+            "average_price_per_sqm": 1321.9391438168475
+        },
+        "appartement": {
+            "average_price": 88918.97741841208,
+            "average_price_per_sqm": 1551.0880997858817
+        }
+    },
+    "Territoire de Belfort": {
+        "maison": {
+            "average_price": 185113.10014369932,
+            "average_price_per_sqm": 1695.8146264560837
+        },
+        "appartement": {
+            "average_price": 105480.35832386365,
+            "average_price_per_sqm": 1536.6886144422488
+        }
+    },
+    "Essonne": {
+        "maison": {
+            "average_price": 362542.39195636596,
+            "average_price_per_sqm": 3713.4479388369823
+        },
+        "appartement": {
+            "average_price": 199353.4673206882,
+            "average_price_per_sqm": 3623.386225266993
+        }
+    },
+    "Hauts-de-Seine": {
+        "maison": {
+            "average_price": 968979.1177824573,
+            "average_price_per_sqm": 8704.876187934773
+        },
+        "appartement": {
+            "average_price": 416988.60699738923,
+            "average_price_per_sqm": 7475.152655277326
+        }
+    },
+    "Seine-Saint-Denis": {
+        "maison": {
+            "average_price": 384779.5371505193,
+            "average_price_per_sqm": 4447.476511676622
+        },
+        "appartement": {
+            "average_price": 256423.9886625247,
+            "average_price_per_sqm": 4818.455387023632
+        }
+    },
+    "Val-de-Marne": {
+        "maison": {
+            "average_price": 566295.296606726,
+            "average_price_per_sqm": 5777.600870226483
+        },
+        "appartement": {
+            "average_price": 293862.85264840786,
+            "average_price_per_sqm": 5449.557375037061
+        }
+    },
+    "Val-d'Oise": {
+        "maison": {
+            "average_price": 358338.8709274267,
+            "average_price_per_sqm": 3767.0280455950456
+        },
+        "appartement": {
+            "average_price": 203880.02350971688,
+            "average_price_per_sqm": 3597.47375063597
+        }
+    },
+    "Paris": {
+        "maison": {
+            "average_price": 2966596.8772158157,
+            "average_price_per_sqm": 18731.983485764216
+        },
+        "appartement": {
+            "average_price": 513124.24719754135,
+            "average_price_per_sqm": 11800.366877056515
+        }
+    }
+}

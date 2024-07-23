@@ -1,0 +1,119 @@
+{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat de la Prédiction</title>
+    <style>
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .header {
+            font-family: 'Arial', sans-serif;
+            width: 100%;
+            padding: 20px 0;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            font-size: 24px;
+        }
+        .header .title {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .result-box {
+            background-color: #f9f9f9;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .result-box h2 {
+            margin-bottom: 20px;
+        }
+        .result-box .price {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .result-box .price-per-m2 {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        .result-box .home-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .result-box .home-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="result-box">
+            <h2>Estimation pour votre {{ type|capfirst }}</h2>
+            <div class="price">{{ prediction.prix_estime|intspace }} €</div>
+            <div class="price-per-m2">{{ prix_m2|intspace }} €/m²</div>
+            <a href="{% url 'home' %}" class="home-button">Retour à l'accueil</a>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour formater les nombres avec séparateurs de milliers et deux décimales
+        function formatNumber(value, decimals = 2) {
+            const formatter = new Intl.NumberFormat('fr-FR', {
+                minimumFractionDigits: decimals,
+                maximumFractionDigits: decimals
+            });
+            return formatter.format(value);
+        }
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            // Récupérer les éléments
+            const priceElement = document.getElementById("price");
+            const pricePerM2Element = document.getElementById("price-per-m2");
+    
+            // Formater les valeurs
+            const formattedPrice = formatNumber(parseFloat(priceElement.innerText.replace(' €', '')), 0);
+            const formattedPricePerM2 = formatNumber(parseFloat(pricePerM2Element.innerText.replace(' €/m²', '')), 2);
+    
+            // Mettre à jour les éléments avec les valeurs formatées
+            priceElement.innerText = `${formattedPrice} €`;
+            pricePerM2Element.innerText = `${formattedPricePerM2} €/m²`;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,416 @@
+{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <title>Accueil - Estimation de Bien Immobilier CENTURY 42</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            width: 100%;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            font-size: 20px;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            margin-top: 60px;
+            text-align: center;
+        }
+        .selection-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .selection-container .selection {
+            margin: 0 20px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .selection-container .selection:hover {
+            border-color: #4CAF50;
+        }
+        .selection img {
+            width: 100px;
+            height: 100px;
+        }
+        .selection p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .estimates-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .estimate-card {
+            flex: 0 0 48%;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .estimate-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .estimate-card p {
+            color: #555;
+            text-align: center;
+        }
+
+        .predictions-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .predictions-column {
+            width: 48%;
+        }
+
+        .prediction {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            height: 200px;
+        }
+        
+
+        .prediction h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .prediction p {
+            margin: 5px 0;
+        }
+
+        .prediction-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .prediction-date {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .title-with-icon {
+            display: flex;
+            align-items: center;
+        }
+        .title-with-icon img {
+            margin-right: 20px;
+            margin-left: 20px;
+            width: 48px;
+            height: 48px;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .separator-line {
+            border: none;
+            height: 2px;
+            background-color: #bebebeb7;
+            margin: 50px 0;
+        }
+
+        .logo {
+            max-width: 100px; /* Ajustez la taille selon vos besoins */
+            height: auto; /* Permet de garder les proportions du logo */
+            text-align: center;
+        }
+
+        .header-title {
+            color: white;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .logo-container {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header-title">Century 42 - Estimez avec Confiance</h1>
+        <img src="{% static 'images/logo_century42.png' %}" alt="Logo Century 42" class="logo">
+
+    </div>
+
+<div class="container">
+
+        <div class="selection-container">
+            <a href="{% url 'creer_appartement' %}">
+                <div class="selection">
+                    <img src="{% static 'images/appart-icone.png' %}" alt="Appartement">
+                    <p>Estimez votre Appartement</p>
+                </div>
+            </a>
+            <a href="{% url 'creer_maison' %}">
+                <div class="selection">
+                    <img src="{% static 'images/maison-icone.png' %}" alt="Maison">
+                    <p>Estimez votre Maison</p>
+                </div>
+            </a>
+        </div>
+
+
+    <hr class="separator-line">
+
+
+    <div class="field">
+        <label for="id_departement">Département</label>
+        <select id="id_departement" name="departement" onchange="updateEstimates()">
+            <option value="">Sélectionnez un département</option>
+            <option value="Ain">Ain</option>
+            <option value="Aisne">Aisne</option>
+            <option value="Allier">Allier</option>
+            <option value="Alpes-de-Haute-Provence">Alpes-de-Haute-Provence</option>
+            <option value="Alpes-Maritimes">Alpes-Maritimes</option>
+            <option value="Ardèche">Ardèche</option>
+            <option value="Ardennes">Ardennes</option>
+            <option value="Ariège">Ariège</option>
+            <option value="Aube">Aube</option>
+            <option value="Aude">Aude</option>
+            <option value="Aveyron">Aveyron</option>
+            <option value="Bas-Rhin">Bas-Rhin</option>
+            <option value="Bouches-du-Rhône">Bouches-du-Rhône</option>
+            <option value="Calvados">Calvados</option>
+            <option value="Cantal">Cantal</option>
+            <option value="Charente">Charente</option>
+            <option value="Charente-Maritime">Charente-Maritime</option>
+            <option value="Cher">Cher</option>
+            <option value="Corrèze">Corrèze</option>
+            <option value="Côte-d'Or">Côte-d'Or</option>
+            <option value="Côtes-d'Armor">Côtes-d'Armor</option>
+            <option value="Creuse">Creuse</option>
+            <option value="Deux-Sèvres">Deux-Sèvres</option>
+            <option value="Dordogne">Dordogne</option>
+            <option value="Doubs">Doubs</option>
+            <option value="Drôme">Drôme</option>
+            <option value="Essonne">Essonne</option>
+            <option value="Eure">Eure</option>
+            <option value="Eure-et-Loir">Eure-et-Loir</option>
+            <option value="Finistère">Finistère</option>
+            <option value="Gard">Gard</option>
+            <option value="Gers">Gers</option>
+            <option value="Gironde">Gironde</option>
+            <option value="Haut-Rhin">Haut-Rhin</option>
+            <option value="Haute-Garonne">Haute-Garonne</option>
+            <option value="Haute-Loire">Haute-Loire</option>
+            <option value="Haute-Marne">Haute-Marne</option>
+            <option value="Haute-Saône">Haute-Saône</option>
+            <option value="Haute-Savoie">Haute-Savoie</option>
+            <option value="Haute-Vienne">Haute-Vienne</option>
+            <option value="Hautes-Alpes">Hautes-Alpes</option>
+            <option value="Hautes-Pyrénées">Hautes-Pyrénées</option>
+            <option value="Hauts-de-Seine">Hauts-de-Seine</option>
+            <option value="Hérault">Hérault</option>
+            <option value="Ille-et-Vilaine">Ille-et-Vilaine</option>
+            <option value="Indre">Indre</option>
+            <option value="Indre-et-Loire">Indre-et-Loire</option>
+            <option value="Isère">Isère</option>
+            <option value="Jura">Jura</option>
+            <option value="Landes">Landes</option>
+            <option value="Loir-et-Cher">Loir-et-Cher</option>
+            <option value="Loire">Loire</option>
+            <option value="Loire-Atlantique">Loire-Atlantique</option>
+            <option value="Loiret">Loiret</option>
+            <option value="Lot">Lot</option>
+            <option value="Lot-et-Garonne">Lot-et-Garonne</option>
+            <option value="Lozère">Lozère</option>
+            <option value="Maine-et-Loire">Maine-et-Loire</option>
+            <option value="Manche">Manche</option>
+            <option value="Marne">Marne</option>
+            <option value="Mayenne">Mayenne</option>
+            <option value="Meurthe-et-Moselle">Meurthe-et-Moselle</option>
+            <option value="Meuse">Meuse</option>
+            <option value="Morbihan">Morbihan</option>
+            <option value="Moselle">Moselle</option>
+            <option value="Nièvre">Nièvre</option>
+            <option value="Nord">Nord</option>
+            <option value="Oise">Oise</option>
+            <option value="Orne">Orne</option>
+            <option value="Paris">Paris</option>
+            <option value="Pas-de-Calais">Pas-de-Calais</option>
+            <option value="Puy-de-Dôme">Puy-de-Dôme</option>
+            <option value="Pyrénées-Atlantiques">Pyrénées-Atlantiques</option>
+            <option value="Pyrénées-Orientales">Pyrénées-Orientales</option>
+            <option value="Rhône">Rhône</option>
+            <option value="Saône-et-Loire">Saône-et-Loire</option>
+            <option value="Sarthe">Sarthe</option>
+            <option value="Savoie">Savoie</option>
+            <option value="Seine-et-Marne">Seine-et-Marne</option>
+            <option value="Seine-Maritime">Seine-Maritime</option>
+            <option value="Seine-Saint-Denis">Seine-Saint-Denis</option>
+            <option value="Somme">Somme</option>
+            <option value="Tarn">Tarn</option>
+            <option value="Tarn-et-Garonne">Tarn-et-Garonne</option>
+            <option value="Territoire de Belfort">Territoire de Belfort</option>
+            <option value="Val-de-Marne">Val-de-Marne</option>
+            <option value="Val-d'Oise">Val-d'Oise</option>
+            <option value="Var">Var</option>
+            <option value="Vaucluse">Vaucluse</option>
+            <option value="Vendée">Vendée</option>
+            <option value="Vienne">Vienne</option>
+            <option value="Vosges">Vosges</option>
+            <option value="Yonne">Yonne</option>
+            <option value="Yvelines">Yvelines</option>
+        </select>
+    </div>
+
+    <div class="estimates-container">
+        <div class="estimate-card">
+            <h2>Prix moyen des Appartements</h2>
+            <div id="appartement-estimates">
+                <p>Veuillez sélectionner un département pour voir les estimations.</p>
+            </div>
+        </div>
+        <div class="estimate-card">
+            <h2>Prix moyen des Maisons</h2>
+            <div id="maison-estimates">
+                <p>Veuillez sélectionner un département pour voir les estimations.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="separator-line">
+
+<h1>Nos 10 dernières Estimations :</h1>
+<div class="predictions-container">
+    <div class="predictions-column">
+        <h2 class="title-with-icon">
+            <img src="{% static 'images/appart-icone.png' %}" alt="Appartement Icon">
+            Appartements estimés récemment
+        </h2>
+        {% for prediction in predictions_appart %}
+        <div class="prediction">
+            <div class="prediction-header">
+                <h3>{{ prediction.region }}</h3>
+                <p class="prediction-date">{{ prediction.date_predicted|date:"d/m/Y H:i" }}</p>
+            </div>
+            <p>{{ prediction.ville }}, {{ prediction.code_postal }}</p>
+            <p>Surface: {{ prediction.superficie }} m²</p>
+            <p>Nombre de pièces: {{ prediction.nombre_de_pieces }}</p>
+            <p>Étage: {{ prediction.etage }}</p>
+            <p>Ascenseur: {{ prediction.ascenseur|yesno:"Oui,Non" }}</p>
+            <p>Prix estimé: <strong>{{ prediction.prix_estime|intspace }} €</strong></p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="predictions-column">
+        <h2 class="title-with-icon">
+            <img src="{% static 'images/maison-icone.png' %}" alt="Maison Icon">
+            Maisons estimées récemment
+        </h2>
+        {% for prediction in predictions_maison %}
+        <div class="prediction">
+            <div class="prediction-header">
+                <h3>{{ prediction.region }}</h3>
+                <p class="prediction-date">{{ prediction.date_predicted|date:"d/m/Y H:i" }}</p>
+            </div>
+            <p>{{ prediction.ville }}, {{ prediction.code_postal }}</p>
+            <p>Surface habitable: {{ prediction.superficie }} m²</p>
+            <p>Surface du terrain: {{ prediction.superficie_terrain }} m²</p>
+            <p>Nombre de pièces: {{ prediction.nombre_de_pieces }}</p>
+            <p>Prix estimé: <strong>{{ prediction.prix_estime|intspace }} €</strong></p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+    <script id="average-prices-data" type="application/json">{{ average_prices|safe }}</script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    function updateEstimates() {
+        const departement = document.getElementById("id_departement").value;
+        const appartementEstimatesDiv = document.getElementById("appartement-estimates");
+        const maisonEstimatesDiv = document.getElementById("maison-estimates");
+
+        if (departement) {
+            fetch(`/get_estimates/?departement=${departement}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        appartementEstimatesDiv.innerHTML = `<p>${data.error}</p>`;
+                        maisonEstimatesDiv.innerHTML = `<p>${data.error}</p>`;
+                        return;
+                    }
+
+                    console.log("Data fetched: ", data);
+
+                    const appartement = data.appartement;
+                    const maison = data.maison;
+
+                    let appartementEstimates = "<p>Aucune donnée disponible pour les appartements.</p>";
+                    let maisonEstimates = "<p>Aucune donnée disponible pour les maisons.</p>";
+
+                    if (appartement.moyenne !== 'N/A') {
+                        const formattedAppartMoyenne = new Intl.NumberFormat('fr-FR').format(Math.round(appartement.moyenne));
+                        const formattedAppartMoyenneSqm = new Intl.NumberFormat('fr-FR').format(Math.round(appartement.moyenne_sqm));
+                        appartementEstimates = `Moyenne: ${formattedAppartMoyenne} €<br>
+                                                Prix moyen au m²: ${formattedAppartMoyenneSqm} €/m²`;
+                    }
+
+                    if (maison.moyenne !== 'N/A') {
+                        const formattedMaisonMoyenne = new Intl.NumberFormat('fr-FR').format(Math.round(maison.moyenne));
+                        const formattedMaisonMoyenneSqm = new Intl.NumberFormat('fr-FR').format(Math.round(maison.moyenne_sqm));
+                        maisonEstimates = `Moyenne: ${formattedMaisonMoyenne} €<br>
+                                           Prix moyen au m²: ${formattedMaisonMoyenneSqm} €/m²`;
+                    }
+
+                    appartementEstimatesDiv.innerHTML = appartementEstimates;
+                    maisonEstimatesDiv.innerHTML = maisonEstimates;
+                })
+                .catch(error => {
+                    console.error("Error fetching estimates: ", error);
+                    appartementEstimatesDiv.innerHTML = `<p>Erreur: ${error}</p>`;
+                    maisonEstimatesDiv.innerHTML = `<p>Erreur: ${error}</p>`;
+                });
+        } else {
+            appartementEstimatesDiv.innerHTML = "<p>Veuillez sélectionner un département pour voir les estimations.</p>";
+            maisonEstimatesDiv.innerHTML = "<p>Veuillez sélectionner un département pour voir les estimations.</p>";
+        }
+    }
+
+    document.getElementById("id_departement").addEventListener("change", updateEstimates);
+});
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+asgiref==3.8.1
+certifi==2024.2.2
+charset-normalizer==3.3.2
+Django==5.0.7
+gunicorn==22.0.0
+idna==3.7
+joblib==1.4.2
+numpy==2.0.0
+# Editable install with no version control (opensky-api==1.3.0)
+-e /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark Streaming/api/opensky-api-master/python
+packaging==24.1
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+requests==2.32.2
+six==1.16.0
+sqlparse==0.5.0
+typing_extensions==4.12.2
+tzdata==2024.1
+urllib3==2.2.1
