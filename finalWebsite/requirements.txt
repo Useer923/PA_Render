@@ -26,7 +26,7 @@ matplotlib-inline==0.1.7
 nest-asyncio==1.6.0
 numpy==2.0.0
 # Editable install with no version control (opensky-api==1.3.0)
--e /Users/thomas/Documents/Ecole/4A_ESGI/S2/Spark Streaming/api/opensky-api-master/python
+
 packaging==24.1
 pandas==2.2.2
 parso==0.8.4
