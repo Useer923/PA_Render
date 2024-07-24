@@ -5,8 +5,8 @@ import pandas as pd
 
 REGIONS_CHOICES = [
     ('', 'Sélectionnez votre région'),
-    ('Auvergne-Rhône-Alpes', 'Auvergne-Rhône-Alpes'),
-    ('Bourgogne-Franche-Comté', 'Bourgogne-Franche-Comté'),
+    ('Auvergne-Rhone-Alpes', 'Auvergne-Rhône-Alpes'),
+    ('Bourgogne-Franche-Comte', 'Bourgogne-Franche-Comté'),
     ('Bretagne', 'Bretagne'),
     ('Centre-Val de Loire', 'Centre-Val de Loire'),
     ('Corse', 'Corse'),
@@ -17,7 +17,7 @@ REGIONS_CHOICES = [
     ('Nouvelle-Aquitaine', 'Nouvelle-Aquitaine'),
     ('Occitanie', 'Occitanie'),
     ('Pays de la Loire', 'Pays de la Loire'),
-    ('Provence-Alpes-Côte d\'Azur', 'Provence-Alpes-Côte d\'Azur')
+    ('Provence-Alpes-Cote d\'Azur', 'Provence-Alpes-Côte d\'Azur')
 ]
 
 TYPES_VOIE_CHOICES = [

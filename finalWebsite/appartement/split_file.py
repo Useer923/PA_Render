@@ -13,10 +13,11 @@ def split_file(file_path, chunk_size_mb):
             chunk = f.read(chunk_size)
 
 # file_path = './RandomForestRegressor/models/Nouvelle-Aquitaine.joblib'
-# split_file(file_path, 85)  # Diviser en parties de 100 Mo
+# split_file(file_path, 40)  # Diviser en parties de 100 Mo
 # file_path = './RandomForestRegressor/models/Occitanie.joblib'
-# split_file(file_path, 85)  # Diviser en parties de 100 Mo
-import os
+# split_file(file_path, 40)  # Diviser en parties de 100 Mo
+# /Users/thomas/Documents/Ecole/4A_ESGI/S2/PA_Render/finalWebsite/appartement/RandomForestRegressor/models/Provence-Alpes-Côte d'Azur.joblib
+
 
 
 def join_files(parts_prefix, output_file_path, parts_dir='.'):
@@ -37,23 +38,23 @@ def join_files(parts_prefix, output_file_path, parts_dir='.'):
                 print(f"Ajouté {len(data)} octets depuis {part_path}")
 
 
-parts_dir = './RandomForestRegressor/models'  # Changez ce chemin si nécessaire
+parts_dir = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models')  # Changez ce chemin si nécessaire
 
 # Remplacez par le bon préfixe et chemin de sortie
-# parts_prefix = 'Auvergne-Rh“ne-Alpes.joblib.part'
-# output_file_path = './RandomForestRegressor/models/Auvergne-Rh“ne-Alpes.joblib'
+# parts_prefix = 'Auvergne-Rh\ône-Alpes.joblib.part'
+# output_file_path = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models/Auvergne-Rhône-Alpes.joblib')
 # join_files(parts_prefix, output_file_path, parts_dir)
 # # Vérifie la taille finale du fichier recomposé
 # print(f"Taille finale du fichier recomposé: {os.path.getsize(output_file_path)} octets")
 #
 # parts_prefix = 'Nouvelle-Aquitaine.joblib.part'
-# output_file_path = './RandomForestRegressor/models/Nouvelle-Aquitaine.joblib'
+# output_file_path = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib')
 # join_files(parts_prefix, output_file_path, parts_dir)
 # # Vérifie la taille finale du fichier recomposé
 # print(f"Taille finale du fichier recomposé: {os.path.getsize(output_file_path)} octets")
 
 # parts_prefix = 'Occitanie.joblib.part'
-# output_file_path = './RandomForestRegressor/models/Occitanie.joblib'
+# output_file_path = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models/Occitanie.joblib')
 # join_files(parts_prefix, output_file_path, parts_dir)
 # # Vérifie la taille finale du fichier recomposé
 # print(f"Taille finale du fichier recomposé: {os.path.getsize(output_file_path)} octets")

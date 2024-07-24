@@ -16,26 +16,27 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'finalWebsite.settings')
 
 application = get_wsgi_application()
 
-directory = './finalWebsite/appartement/RandomForestRegressor/models'
+directory = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models')
+print(f'Files in the directory: {os.getcwd()}')
 unzip_file(directory)
 
-parts_dir = './finalWebsite/appartement/RandomForestRegressor/models'  # Changez ce chemin si nécessaire
+#parts_dir = './finalWebsite/appartement/RandomForestRegressor/models'  # Changez ce chemin si nécessaire
 
 # Remplacez par le bon préfixe et chemin de sortie
-parts_prefix = 'Auvergne-Rhône-Alpes.joblib.part'
-output_file_path = './finalWebsite/appartement/RandomForestRegressor/models/Auvergne-Rhône-Alpes.joblib'
-join_files(parts_prefix, output_file_path, parts_dir)
+parts_prefix = 'Auvergne-Rhone-Alpes.joblib.part'
+output_file_path = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models/Auvergne-Rhone-Alpes.joblib')
+join_files(parts_prefix, output_file_path, directory)
 # # Vérifie la taille finale du fichier recomposé
 # print(f"Taille finale du fichier recomposé: {os.path.getsize(output_file_path)} octets")
 #
 parts_prefix = 'Nouvelle-Aquitaine.joblib.part'
-output_file_path = './finalWebsite/appartement/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib'
-join_files(parts_prefix, output_file_path, parts_dir)
+output_file_path = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models/Nouvelle-Aquitaine.joblib')
+join_files(parts_prefix, output_file_path, directory)
 # # Vérifie la taille finale du fichier recomposé
 # print(f"Taille finale du fichier recomposé: {os.path.getsize(output_file_path)} octets")
 
 parts_prefix = 'Occitanie.joblib.part'
-output_file_path = './finalWebsite/appartement/RandomForestRegressor/models/Occitanie.joblib'
-join_files(parts_prefix, output_file_path, parts_dir)
+output_file_path = os.path.join(os.getcwd(),'finalWebsite/appartement/RandomForestRegressor/models/Occitanie.joblib')
+join_files(parts_prefix, output_file_path, directory)
 # # Vérifie la taille finale du fichier recomposé
 # print(f"Taille finale du fichier recomposé: {os.path.getsize(output_file_path)} octets")
