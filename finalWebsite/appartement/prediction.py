@@ -24,8 +24,8 @@ def predict_price_appartement(adresse_numero, adresse_suffixe, adresse_code_voie
     print("DataFrame:", df)
     print("Colonnes du DataFrame:", df.columns)
 
-    transformer = load_transformer(os.path.join(os.getcwd(),f'finalWebsite/appartement/RandomForestRegressor/transformers/{region}.csv'))
-    model = joblib.load(os.path.join(os.getcwd(),f'finalWebsite/appartement/RandomForestRegressor/models/{region}.joblib'))
+    transformer = load_transformer(os.path.join(os.getcwd(),f'appartement/RandomForestRegressor/transformers/{region}.csv'))
+    model = joblib.load(os.path.join(os.getcwd(),f'appartement/RandomForestRegressor/models/{region}.joblib'))
 
     for column in df.columns:
         if df[column].isnull().any():
@@ -81,8 +81,8 @@ def predict_price_maison(adresse_numero, adresse_suffixe, adresse_code_voie, adr
     print("DataFrame:", df)
     print("Colonnes du DataFrame:", df.columns)
 
-    transformer = load_transformer(os.path.join(os.getcwd(),f'finalWebsite/appartement/RandomForestRegressor/transformers/{region}.csv'))
-    model = joblib.load(os.path.join(os.getcwd(),f'finalWebsite/appartement/RandomForestRegressor/models/{region}.joblib'))
+    transformer = load_transformer(os.path.join(os.getcwd(),f'appartement/RandomForestRegressor/transformers/{region}.csv'))
+    model = joblib.load(os.path.join(os.getcwd(),f'appartement/RandomForestRegressor/models/{region}.joblib'))
 
     for column in df.columns:
         if df[column].isnull().any():
